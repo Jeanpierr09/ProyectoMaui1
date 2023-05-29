@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMaui1.PaginaPrincipal"
+             Title="Bienvenido al listado de Autos">
+
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout>
+            <Label
+                Text="Listado de Autos"
+                FontSize="Large"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                />
+
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                Text="El nombre que ingresaste en el inicio, será el que se ocupará para colocar el auto que selecciones a tu nombre"
+                TextColor="Black"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Margin="0,40,0,0"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                
+                Text="Si no ingresaste un nombre, puedes volver a la pestaña de incio y hacerlo." 
+                TextColor="Black"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Margin="0,60,0,0"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                Text="El nombre ingresado fue" 
+                TextColor="Black"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Margin="0,80,0,0"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                Text="Por favor seleccione el tipo de auto que desea agregar el su lista personal" 
+                TextColor="Black"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Margin="0,150,0,0"
+                FontAttributes="Bold" 
+                />
+        </StackLayout>
+
+
+        <StackLayout>
+            <Label 
+                x:Name="LabelNombre"
+                TextColor="Black"
+                FontSize="25"
+                FontAttributes="Bold"
+                Margin="0,110,0,0"
+                HorizontalOptions="Center"
+               />
+        </StackLayout>
+
+        <StackLayout>
+            <Frame HeightRequest="300" WidthRequest="500" Padding="0" Margin="0,200,1000,0" HorizontalOptions="Center">
+                <Image Source="pickup.jpg" Aspect="AspectFill" Margin="0"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout>
+            <Frame HeightRequest="300" WidthRequest="500" Padding="0" Margin="1000,200,0,1000" HorizontalOptions="Center">
+                <Image Source="sedan.jpg" Aspect="AspectFill" Margin="0"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout>
+            <Frame HeightRequest="300" WidthRequest="450" Padding="0" Margin="0,200,0,0" HorizontalOptions="Center">
+                <Image Source="camioneta.jpg" Aspect="AspectFill" Margin="0"/>
+            </Frame>
+        </StackLayout>
+
+
+        <StackLayout>
+            <Button
+                Clicked="Agregar_PickUp"
+                Text="Presione acá para agrear un PickUp" 
+                TextColor="White"
+                FontSize="15"
+                BackgroundColor="Black" 
+                HorizontalOptions="Center"
+                Margin="-1000,525,0,0"
+                Padding="10,10,10,10"
+                FontAttributes="Bold"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Button
+                Clicked="Agregar_Camioneta"
+                Text="Presione acá para agrear una Camioneta" 
+                TextColor="White"
+                BackgroundColor="Black"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Margin="0,525,0,0"
+                Padding="10,10,10,10"
+                FontAttributes="Bold"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Button
+                Clicked="Agregar_Sedan"
+                Text="Presione acá para agrear un Sedan" 
+                TextColor="White"
+                BackgroundColor="Black"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Margin="1000,525,0,0"
+                Padding="10,10,10,10"
+                FontAttributes="Bold"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Button
+                Clicked="ListadodeAutos"
+                Text="Presione acá para agrear un Sedan" 
+                TextColor="White"
+                BackgroundColor="Black"
+                FontSize="15"
+                HorizontalOptions="Center"
+                Margin="1000,525,0,0"
+                Padding="10,10,10,10"
+                FontAttributes="Bold"
+                />
+        </StackLayout>
+
+
+    </Grid>
+</ContentPage>

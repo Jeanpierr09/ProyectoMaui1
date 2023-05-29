@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoMaui1.PagSedan"
+             Title="Sedanes">
+
+    <Grid BackgroundColor="Black">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="220"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="50"/>
+    </Grid.RowDefinitions>
+
+        <StackLayout>
+            <Label
+                Text="Bienvenido a la lista de Sedanes"
+                FontSize="Large"
+                TextColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                Text="Acá te mostramos los sedanes que puedes escoger"
+                FontSize="Large"
+                TextColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="0,30,0,0"
+            />
+        </StackLayout>
+        
+        <StackLayout>
+            <Label
+                Text="Toyota Corolla"
+                FontSize="Large"
+                TextColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-1000,95,0,0"
+            />
+        </StackLayout>
+
+        <StackLayout>
+            <Button
+                Text="Agregar este Auto a la lista"
+                Margin="-1000,145,0,0"
+                Padding="10,10,10,10"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="Black"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Button
+                Text="Agregar este Auto a la lista"
+                Margin="1000,145,0,0"
+                Padding="10,10,10,10"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="Black"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                Text="Honda Civic"
+                FontSize="Large"
+                TextColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="1000,95,0,0"
+            />
+        </StackLayout>
+
+        <StackLayout>
+            <Frame HeightRequest="300" WidthRequest="450" Padding="0" Margin="-1000,200,0,0" HorizontalOptions="Center">
+                <Image Source="toyotacorolla.jpg" Aspect="AspectFill" Margin="0"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout>
+            <Frame HeightRequest="300" WidthRequest="450" Padding="0" Margin="1000,200,0,0" HorizontalOptions="Center">
+                <Image Source="hondacivic.jpg" Aspect="AspectFill" Margin="0"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout>  
+            <Label
+                TextColor="White"
+                Text="Motor Economico"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-1000,500,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="4 Asientos"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-1000,520,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Carrocería Aerodinamica"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-1000,540,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Modelo 2022"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-1000,560,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Carrocería de tres cajas"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-1000,580,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Color Blanco Metalico"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-1000,600,10,10"
+                />
+        </StackLayout>
+
+
+
+
+
+
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Motor 2.0"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="1000,500,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="4 Asientos"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="1000,520,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Carrocería Aerodinamica tipo Sport"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="1000,540,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Modelo 2022"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="1000,560,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Carrocería de tres cajas"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="1000,580,10,10"
+                />
+        </StackLayout>
+
+        <StackLayout>
+            <Label
+                TextColor="White"
+                Text="Color Azul Metalico"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="1000,600,10,10"
+                />
+        </StackLayout>
+
+
+    </Grid>
+</ContentPage>
